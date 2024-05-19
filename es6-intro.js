@@ -61,20 +61,19 @@
 // const [prothom, ditiyo] = doubleThem(6, 8);
 // console.log(prothom, ditiyo);
 
-const glass = {
-  name: 'glass',
-  color: 'golden',
-  price: 12,
-  isCleaned: true,
-};
-const keys = Object.keys(glass);
-// console.log(keys);
-const values = Object.values(glass);
-// console.log(values);
+// const glass = {
+//   name: 'glass',
+//   color: 'golden',
+//   price: 12,
+//   isCleaned: true,
+// };
+// const keys = Object.keys(glass);
+// // console.log(keys);
+// const values = Object.values(glass);
+// // console.log(values);
 
-
-const entries = Object.entries(glass);
-console.log(entries);
+// const entries = Object.entries(glass);
+// console.log(entries);
 // Tow dimensional Array
 // [
 //   ['name', 'glass'],
