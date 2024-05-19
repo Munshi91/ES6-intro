@@ -29,14 +29,19 @@
 // const subtraction = add(30, 20);
 // console.log(subtraction);
 
-const different = (x, y) => x - y;
-const multiply = (first, second, third) => first * second * third;
+// const different = (x, y) => x - y;
+// const multiply = (first, second, third) => first * second * third;
 
-const getAge = parson => parson.age;
-const student = { name: 'anita', age: 45 };
-const age = getAge(student);
-console.log(age);
+// const getAge = parson => parson.age;
+// const student = { name: 'anita', age: 45 };
+// const age = getAge(student);
+// console.log(age);
 
-const getThird = Number => Number[1];
-const third = getThird([5, 56, 88, 6, 9]);
-console.log(third);
+// const getThird = Number => Number[1];
+// const third = getThird([5, 56, 88, 6, 9]);
+// console.log(third);
+
+const max = Math.max(6, 23, 45, 1, 89, 23);
+const numbers = [3, 5, 45, 5, 2, 43, 90, 32, 15];
+const arrayMax = Math.max(...numbers);
+console.log(arrayMax);
