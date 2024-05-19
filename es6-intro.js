@@ -11,16 +11,20 @@
 // const math = `The sum of ${a} and ${b} is ${a + b}`;
 // console.log(math);
 
-function add(a, b) {
-  const result = a + b;
-  return result;
-}
+// function add(a, b) {
+//   const result = a + b;
+//   return result;
+// }
 
 // const sum = add(5, 9);
 // console.log(sum);
 
 // arrow function
 
-const add2 = (a, b) => a + b;
-const sum = add2(20, 30);
-console.log(sum);
+// const add2 = (a, b) => a + b;
+// const sum = add2(20, 30);
+// console.log(sum);
+
+const add = (a, b) => a - b;
+const subtraction = add(30, 20);
+console.log(subtraction);
