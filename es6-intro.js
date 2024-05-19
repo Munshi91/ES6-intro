@@ -41,7 +41,22 @@
 // const third = getThird([5, 56, 88, 6, 9]);
 // console.log(third);
 
-const max = Math.max(6, 23, 45, 1, 89, 23);
-const numbers = [3, 5, 45, 5, 2, 43, 90, 32, 15];
-const arrayMax = Math.max(...numbers);
-console.log(arrayMax);
+// const max = Math.max(6, 23, 45, 1, 89, 23);
+// const numbers = [3, 5, 45, 5, 2, 43, 90, 32, 15];
+// const arrayMax = Math.max(...numbers);
+// console.log(arrayMax);
+
+// const actor = {
+//   name: 'Ananata',
+//   age: 30,
+//   phone: '017845',
+//   money: 123654789,
+// };
+// console.log(actor.phone);
+
+function doubleThem(a, b) {
+  return [a * 2, b * 2];
+}
+
+const [prothom, ditiyo] = doubleThem(6, 8);
+console.log(prothom, ditiyo);
