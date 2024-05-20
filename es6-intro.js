@@ -92,9 +92,15 @@
 
 // console.log(product.data[1].price);
 
-const numbers = [4, 5, 2, 8, 10];
-function doubleIt(num) {
-  return num * 2;
-}
-const result = numbers.map(doubleIt);
-console.log(result);
+// const numbers = [4, 5, 2, 8, 10];
+// function doubleIt(num) {
+//   return num * 2;
+// }
+// const double2 = n => n * 2;
+
+// const result = numbers.map(doubleIt);
+// console.log(result);
+// const output = numbers.map(double2);
+// console.log(output);
+// const output2 = numbers.map(n => n * 2);
+// console.log(output2);
