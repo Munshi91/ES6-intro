@@ -82,12 +82,19 @@
 //   ['isCleaned', true],
 // ];
 
-const product = {
-  count: 5000,
-  data: [
-    { id: 1, name: 'Lenovo laptop', price: 65000 },
-    { id: 2, name: 'macbook', price: 160000 },
-  ],
-};
+// const product = {
+//   count: 5000,
+//   data: [
+//     { id: 1, name: 'Lenovo laptop', price: 65000 },
+//     { id: 2, name: 'macbook', price: 160000 },
+//   ],
+// };
 
-console.log(product.data[1].price);
+// console.log(product.data[1].price);
+
+const numbers = [4, 5, 2, 8, 10];
+function doubleIt(num) {
+  return num * 2;
+}
+const result = numbers.map(doubleIt);
+console.log(result);
