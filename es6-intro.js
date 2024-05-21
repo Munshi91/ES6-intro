@@ -104,3 +104,6 @@
 // console.log(output);
 // const output2 = numbers.map(n => n * 2);
 // console.log(output2);
+const numbers = [4, 5, 8, 6, 9, 66];
+const total = numbers.reduce((previous, current) => previous + current, 0);
+console.log(total);
