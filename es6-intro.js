@@ -104,6 +104,31 @@
 // console.log(output);
 // const output2 = numbers.map(n => n * 2);
 // console.log(output2);
-const numbers = [4, 5, 8, 6, 9, 66];
-const total = numbers.reduce((previous, current) => previous + current, 0);
-console.log(total);
+// const numbers = [4, 5, 8, 6, 9, 66];
+// const total = numbers.reduce((previous, current) => previous + current, 0);
+// console.log(total);
+
+// const products = [
+//   { id: 1, name: 'lenovo', price: 60000 },
+//   { id: 2, name: 'dell', price: 65000 },
+//   { id: 3, name: 'hp', price: 96000 },
+//   { id: 4, name: 'mac', price: 160000 },
+//   { id: 5, name: 'toshiba', price: 30000 },
+// ];
+// // map
+// const names = products.map(product => product.name);
+// // console.log(names);
+// const prices = products.map(p => p.price);
+// // console.log(prices);
+
+// // forEach
+// // products.forEach(p => console.log(p.id));
+
+// // filter
+
+// const expensive = products.filter(p => p.price > 20000);
+// // console.log(expensive);
+
+// // Find
+// const affordable = products.find(p => p.price < 50000);
+// console.log(affordable);
